@@ -1,5 +1,6 @@
 ﻿        $(document).ready(function () {
 
+           $("#tabStrip").kendoTabStrip();
 
             $("#grid").kendoGrid({
                 dataSource: new kendo.data.DataSource({
@@ -61,6 +62,8 @@
                          ]
 
             });
+
+             
 
 
 

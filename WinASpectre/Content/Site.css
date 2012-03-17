@@ -75,9 +75,14 @@ textarea
 }
 #grid
 {
-    width: 90%;
+
 }
 #description
 {
-    width: 40%;
+    width: 50%;
+}
+#page
+{
+    width: 90%;
+    margin: 0 auto;
 }
