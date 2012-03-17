@@ -1,6 +1,6 @@
 ﻿        $(document).ready(function () {
 
-           $("#tabStrip").kendoTabStrip();
+            
 
             $("#grid").kendoGrid({
                 dataSource: new kendo.data.DataSource({
@@ -59,7 +59,8 @@
                                 title: "Tweet about it",
                                 template: kendo.template("<a href='http://twitter.com/home?status= #= link # %23cpl12 %23winaspectre' title='Click to tweet about this session!' target='_blank'><img src='http://twitter-badges.s3.amazonaws.com/t_logo-a.png' Border='0' alt='Tweet this!'/></a>")
                             }
-                         ]
+                         ],
+                 detailTemplate: kendo.template($("#template").html()),
 
             });
 
